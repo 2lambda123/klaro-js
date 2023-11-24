@@ -222,7 +222,7 @@ export default class ConsentNotice extends React.Component {
             <div
                 role="dialog"
                 aria-describedby="id-cookie-notice"
-                aria-labelledby={visibleHeader ? 'id-cookie-title' : null}
+                aria-label={t(['!', 'consentNotice', 'accessibleTitle'])}
                 id="klaro-cookie-notice"
                 tabIndex="0"
                 autoFocus
